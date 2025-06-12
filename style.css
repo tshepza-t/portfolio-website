@@ -26,6 +26,20 @@ h2 {
     color: #007bff;
 }
 
+a.btn {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(4, 56, 153);
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+
+    
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -71,7 +85,7 @@ footer > p{
 
 .projects-card {
     background-color: white;
-    border-left: 4px solid #07ecd9;
+    border-left: 4px solid #007bff ;
     padding: 15px;
     border-radius: 8px;
     width: 250px;
@@ -100,7 +114,7 @@ footer > p{
 .projects-card > a{
     display: inline-block;
     padding: 8px 15px;
-    background-color: #007bff;
+    background-color:  rgb(4, 56, 153);
     color: white;
     border: none;
     border-radius: 6px;
@@ -143,4 +157,9 @@ nav {
 
 .navbar > li > a:hover {
     background-color: #007bff;
+}
+
+#contact > p > a {
+    text-decoration: none;
+
 }
